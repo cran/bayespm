@@ -300,7 +300,7 @@ norm1_PCC <- function( data = NULL, historical_data = NULL,
   }
 
   # List of results
-  if ( summary_list ) { print(PCC_summary) }
+  if ( summary_list ) { return(PCC_summary) }
 
   # List of results return in pdf
   if ( pdf_report ) {
